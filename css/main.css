@@ -1,3 +1,48 @@
+body,html {
+	height: 100%;
+    margin: 0;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.4px;
+	color: #303030;
+	
+}
+
 h1{
-	color:red;
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 100px;
+	color: white;
+
+}
+
+
+p{
+	line-height: 29px;
+	font-size: 21px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+
+.maintxt {
+	margin: auto;
+    width: 700px;
+}
+
+.bg {
+
+    /* The image used */
+    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2017/06/high-sierra.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
