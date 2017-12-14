@@ -1,14 +1,27 @@
 body,html {
 	height: 100%;
-    margin: 0;
+	margin: 0;
 	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 	letter-spacing: 0.4px;
 	color: #303030;
-	
+
 }
 
+body {
+	/*background-color: red;*/
+}
+
+a {
+	color:#303030;
+	text-decoration: none;
+
+}
+
+/*TYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPOTYPO*/
+
 h1{
-	position: absolute;
+	position: relative;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -40%);
@@ -17,7 +30,15 @@ h1{
 	font-weight: 100;
 	font-size: 100px;
 	color: white;
+	margin: 0;
+	padding: 0;
 
+}
+
+h2 {
+	text-indent: 40px;
+	font-weight: 500;
+	/*font-size: 21px;*/
 }
 
 
@@ -30,19 +51,107 @@ p{
 
 .maintxt {
 	margin: auto;
-    width: 700px;
+  width: 800px;
 }
 
-.bg {
+.img_caption {
+	font-size: 16px;
+	text-align: center;
+}
 
-    /* The image used */
-    background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2017/06/high-sierra.jpg");
+.footnotes {
+	/*font-size: 21px;*/
+}
+
+sup{
+	font-size: 14px;
+}
+
+.quote {
+	margin-left: 40px;
+	/*font-weight: 400;*/
+}
+
+#chapter {
+	position: fixed;
+	right: 0px;
+	margin-top: 12px;
+	margin-right: 15px;
+	text-align: right;
+}
+
+#number {
+	position: fixed;
+	margin-top: 12px;
+	margin-left: 15px;
+	text-align: left;
+}
+
+/*IMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMGIMG*/
+
+.chapimg {
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.chapimg1 {
+	/*background-color: red;*/
+	background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2017/06/high-sierra.jpg");
+}
+
+.chapimg2 {
+	/*background-color: blue;*/
+	background-image: url("https://www.planwallpaper.com/static/images/abstract-colourful-cool-wallpapers-55ec7905a6a4f.jpg");
+}
+
+
+.ref_img_intxt {
+		width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.ref_vid_intxt {
+		display: block;
+		margin: auto;
+}
+
+
+/*GRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICSGRAPHICS*/
+
+.chap_buttons {
+	position: relative;
+		top: 50%;
+		left: 50%;
+		width: 200px;
+		display: block;
+		/*margin: auto;*/
+		transform: translate(-50%, -50%);
+
+
+}
+
+.button {
+    background-color: #39ff14;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+		width: 200px;
+
+}
+
+.button2 {background-color: #ff0000;
+
 }
