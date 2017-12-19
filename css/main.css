@@ -133,8 +133,6 @@ sup{
 		display: block;
 		/*margin: auto;*/
 		transform: translate(-50%, -50%);
-
-
 }
 
 .button {
@@ -149,9 +147,19 @@ sup{
     margin: 4px 2px;
     cursor: pointer;
 		width: 200px;
-
 }
 
 .button2 {background-color: #ff0000;
-
 }
+
+/*PRINTPRINTPRINTPRINTPRINTPRINTPRINTPRINTPRINTPRINTPRINTPRINTPRINT*/
+
+@media print {
+	#number, #chapter * { display: none !important; }
+}
+
+@media print { .ref_img_intxt, .ref_img_intxt * { display: none !important; } }
+
+@media print { .ref_vid_intxt, .ref_vid_intxt * { display: none !important; } }
+
+@media print { h1, h1 * { display: none !important; } }
