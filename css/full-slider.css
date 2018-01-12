@@ -159,12 +159,13 @@
 }
 
 #watch_nxt{
-	background-color: red;
+	/*background-color: red;*/
 	display:inline-block;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
 }
+
 #a, #b, #c, #d, #e{
 	width: 12vw;
 	height: 12vw;
@@ -173,16 +174,40 @@
 	float: left;
 }
 
-#f, #g, #h, #i, #j{
+#watch_nxt2{
+	/*background-color: orange;*/
+	display:inline-block;
+	position: relative;
+	left: 50%;
+  width: 80%;
+	transform: translateX(-50%);
+  text-align: center;
+
+}
+#f {
   border-radius: 50%;
   width: 10vw;
 	height: 10vw;
-	text-align: center;
-	margin: 1vw;
-	float: left;
+	margin: 0.5vw;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0.5px;
   }
 
-#a, #f{
+.img_watch2 {
+  position: absolute;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  left: 50%;
+	transform: translateX(-50%);
+  filter: blur(7px);
+}
+
+#a {
 	background-color: #2bff00;
 	}
 #b, #g{
