@@ -48,7 +48,7 @@
       <!-- </div> -->
     </nav>
 
-    <header>
+    <header data-speed="0.5">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
         <!-- <ol class="carousel-indicators">
@@ -208,15 +208,9 @@
 
 			<p>So why buy the product if it doesn't matter any more. For the prestige? For the statement? Just keep the packaging. I am studying graphic design and collect fancy packaging for my shelves too. If that is the joke then it is no wonder that it has been made by artists and designers. Ryder Ripps made the branding for Soylent and also for Abacus a dietary supplement in pill form. Where the branding of Soylent stays consistently somewhere between resembling a nutrition facts table and an Innocent smoothie, the branding of Abacus Pills feels slightly more eerie and creates another No Phone like moment. Is this sincere? Is this a hoax? Is that meant to make me anxious? Is it meant to help me? Is it critique directed towards me as a consumer or have you become self-aware about your product?</p>
 
-        <!-- <div class='ref_vid_intxt'>
-          <div class='embed-container'>
-            <iframe src='https://player.vimeo.com/video/137085798' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-          </div>
-        </div>
-        <p class="img_caption"><a target="_blank" href="https://vimeo.com/222011856">Tannh&auml;user Gate (Not Really Now Not Anymore)</a> 2016, <a target="_blank" href="https://vimeo.com/user4274171">Rustan S&ouml;derling</a>.</p> -->
 
 
-      <!-- </div>
+      </div>
     </section>
 
     <div id='lot_choice'>
@@ -247,7 +241,7 @@
 			</div>
 
     <section class="py-5">
-      <div class="container"> -->
+      <div class="container">
 
         <p>“Hacking vs. Defaults” shows precisely that tension. Although Guthrie Lonergan comments on how the “ethos of internet-based art practices have evolved”, the “???” stays open for interpretation. But clearly shows two kinds of mentalities which seem to be at work, for whatever they might be applied.</p>
 
@@ -715,7 +709,7 @@
       <div class="container">
         <!-- <p id="footer">© 10.1.2018 23:03:36 THE LAST HOUR, LLC (PERHAPS) FOR THE GOOD DEATH (CLOUDS 45ºF) NEITHER INSTAGRAM NOR CHROME NOR DEN HAAG NOR TERMS OF USE NOR SUPPORT @ LOT 2046 COM NOR +1 628 444 9791 (GOOD WORKS) PAYMENTS BY STRIPE (JEREMIAH 29:11) 52.0714,4.2823 THANKS BYE</p> -->
 
-        <p id="footer">© 10.1.2018 23:03:36 THIS TEXT, B&#xDC;RGER&#x2019;S SLIPPERY DESIGN, K-HOLE&#x2019;S REPORT ON FREEDOM AND MARQUARD&#x2019;S DEFENSE OF THE ACCIDENTAL PROPAGATE, AN APPRECIATION FOR THE SEPARATION OF POWERS. NATURALLY THEY BECOME A SINGLE ENTITY THEMSELVES WHICH DOES SIMULATE A SOVEREIGNTY OR OBJECTIVENESS TOWARDS YOU AS A READER. KEEP IN MIND THAT IN THEIR OWN IDEA, IN THE IDEA OF A PLURALISM AND A GOODBYE TO KEY ATTITUDES, TO NOT ALWAYS FOLLOW OR BELIEVE WHAT HAS BEEN SAID (IN THIS TEXT). FEEL FREE TO CLAIM ANY RIGHT FOR AN INTERPRETATION THAT REMAINS WITH YOURSELF. +49 1 577 344 8 777</p>
+        <p id="footer">10.1.2018 23:03:36 THIS TEXT, B&#xDC;RGER&#x2019;S SLIPPERY DESIGN, K-HOLE&#x2019;S REPORT ON FREEDOM AND MARQUARD&#x2019;S DEFENSE OF THE ACCIDENTAL PROPAGATE, AN APPRECIATION FOR THE SEPARATION OF POWERS. NATURALLY THEY BECOME A SINGLE ENTITY THEMSELVES WHICH DOES SIMULATE A SOVEREIGNTY OR OBJECTIVENESS TOWARDS YOU AS A READER. KEEP IN MIND THAT IN THEIR OWN IDEA, IN THE IDEA OF A PLURALISM AND A GOODBYE TO KEY ATTITUDES, TO NOT ALWAYS FOLLOW OR BELIEVE WHAT HAS BEEN SAID (IN THIS TEXT). FEEL FREE TO CLAIM ANY RIGHT FOR AN INTERPRETATION THAT REMAINS WITH YOURSELF. +49 1 577 344 8 777</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -727,6 +721,32 @@
     <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
+    <!-- <script type="text/javascript">
+    $( function ( ) {
+
+    $( window ).scrollTop( 0 );
+
+      var header = $( 'header' );
+      header.css( 'z-index', '-1' );
+
+      var scroll_speed = parseFloat( header.data( 'speed' ) );
+
+
+      $( window ).scroll( function( e ) {
+        var scroll_top = $( window ).scrollTop( );
+
+        header.css( { '-webkit-transform': 'translate(0,' + ( scroll_speed * scroll_top ) + 'px',
+                          '-ms-transform': 'translate(0,' + ( scroll_speed * scroll_top ) + 'px',
+                              'transform': 'translate(0,' + ( scroll_speed * scroll_top ) + 'px' );
+
+
+        var perspective = parseInt( $( '.carousel-item.active' ).css( 'perspective' ) );
+
+                      '-webkit-perspective': ( perspective  + 1 ) + 'px',
+                              'perspective': ( perspective  + 1 ) + 'px', } );
+      } );
+    } );
+    </script> -->
 
 
   </body>
