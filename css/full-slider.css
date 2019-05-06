@@ -2,11 +2,11 @@ body {
   max-width: 1000px;
   margin: auto;
   font-size: 1.5em;
+  font-family: verdana;
   /* line-height: 1.3em; */
   color: #090909;
   padding: 1em;
   padding-bottom: 2em;
-  background-color: aliceblue;
 }
 
 img{
@@ -24,14 +24,12 @@ p {
 
 h1, h2 {
   text-align: center;
-  font-family: comic sans ms;
 }
 
 .quote{
 
   display: block;
-  font-family: arial;
-  border: groove black;
+  border: 2px groove lightgrey;
   border-radius: 5px;
   padding: 1em;
 }
@@ -53,12 +51,12 @@ h1, h2 {
 .card{
   text-align: center;
   margin: 1em auto 1em;
-  border: groove black;
+  border: 2px groove lightgrey;
   border-radius: 5px;
 }
 
 .card-header{
-  border-bottom: groove black;
+  border-bottom: 2px groove lightgrey;
 }
 
 .burton {
